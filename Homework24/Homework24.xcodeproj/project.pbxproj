@@ -12,6 +12,8 @@
 		AB0526312B87410C00782176 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB05262F2B87410C00782176 /* Main.storyboard */; };
 		AB0526332B87410D00782176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB0526322B87410D00782176 /* Assets.xcassets */; };
 		AB0526362B87410D00782176 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0526342B87410D00782176 /* LaunchScreen.storyboard */; };
+		AB0526412B87549000782176 /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB05263F2B87549000782176 /* CityTableViewCell.swift */; };
+		AB0526422B87549000782176 /* CityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB0526402B87549000782176 /* CityTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AB0526322B87410D00782176 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB0526352B87410D00782176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB0526372B87410D00782176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB05263F2B87549000782176 /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
+		AB0526402B87549000782176 /* CityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CityTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				AB0526292B87410C00782176 /* AppDelegate.swift */,
 				AB05262D2B87410C00782176 /* ViewController.swift */,
+				AB05263F2B87549000782176 /* CityTableViewCell.swift */,
 				AB05262F2B87410C00782176 /* Main.storyboard */,
-				AB0526322B87410D00782176 /* Assets.xcassets */,
+				AB0526402B87549000782176 /* CityTableViewCell.xib */,
 				AB0526342B87410D00782176 /* LaunchScreen.storyboard */,
 				AB0526372B87410D00782176 /* Info.plist */,
+				AB0526322B87410D00782176 /* Assets.xcassets */,
 			);
 			path = Homework24;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				AB0526362B87410D00782176 /* LaunchScreen.storyboard in Resources */,
 				AB0526332B87410D00782176 /* Assets.xcassets in Resources */,
+				AB0526422B87549000782176 /* CityTableViewCell.xib in Resources */,
 				AB0526312B87410C00782176 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			files = (
 				AB05262E2B87410C00782176 /* ViewController.swift in Sources */,
 				AB05262A2B87410C00782176 /* AppDelegate.swift in Sources */,
+				AB0526412B87549000782176 /* CityTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
